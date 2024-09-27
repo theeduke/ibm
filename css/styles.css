@@ -110,7 +110,7 @@ about us
 .service h3 {
     font-size: 20px; /* Font size for service name */
     color: #333; /* Color for service name */
-    margin-bottom: 10px; /* Space between title and image */
+    margin-bottom: 10px; 
 }
 
 .service img {

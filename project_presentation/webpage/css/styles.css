@@ -1,0 +1,251 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #ff6699;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url('https://example.com/nail-salon.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+
+}
+
+.hero-content h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: black
+}
+
+.hero-content p {
+    font-size: 20px;
+    text-align: center;
+    color: black
+}
+
+.hero-content .btn {
+    margin-top: 20px;
+}
+
+/* Services Section */
+
+.services-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+}
+
+.service {
+    display: inline-block; /* Align services horizontally */
+    margin: 20px; /* Space between services */
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding inside the service card */
+    background-color: white; /* Background color of service card */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: transform 0.2s; /* Animation on hover */
+}
+
+.service:hover {
+    transform: scale(1.05); /* Slightly scale up on hover */
+}
+
+.service h3 {
+    font-size: 20px; /* Font size for service name */
+    color: #333; /* Color for service name */
+    margin-bottom: 10px; /* Space between title and image */
+}
+
+.service img {
+    width: 100%; 
+    max-width: 250px;
+    border-radius: 10px; /* Rounded corners for images */
+}
+
+
+
+
+.testimonials-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    overflow: hidden; /* Ensures smooth scrolling and hiding overflow */
+}
+
+.testimonials-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    animation: slide-left 20s linear infinite;
+    width: 100%; /* Ensures full width for smooth transitions */
+}
+
+.testimonial {
+    min-width: 300px;
+    padding: 20px;
+    margin-right: 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Keyframes for sliding animation */
+@keyframes slide-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+
+/* Contact Section (Book Appointment) */
+.contact-section {
+
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.appointment-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffe6f0;
+    align-items: flex-start;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+    width: 60%;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6699;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+/* Contact Details Section */
+.contact-details {
+    width: 35%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details h3 {
+    margin-bottom: 15px;
+}
+
+.contact-details p {
+    margin: 10px 0;
+}
+
+.contact-details a {
+    color: #ff6699;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Social Media Icons */
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media img {
+    width: 40px;
+    margin: 0 10px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #ff6699;
+    color: white;
+    text-align: center;
+}
+
+
+.thank-you-message {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+}
+
+.thank-you-message h2 {
+    font-size: 28px;
+    color: #ff6699;
+}
+
+.thank-you-message p {
+    font-size: 18px;
+    color: #333;
+}
+
+.thank-you-message a {
+    color: #ff6699;
+    text-decoration: none;
+    font-weight: bold;
+}

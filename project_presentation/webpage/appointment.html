@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="media/android-chrome-512x512.png">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Appointment</title>
+</head>
+<body>
+    <header class="hero-section"></header>
+        <div class="hero-content">
+            <h1>Welcome to Glamour Nails</h1>
+            <p>Luxury nail care at its finest</p>
+        </div>
+    </header>
+    
+    <section id="book-appointment" class="contact-section"></section>
+        <h2>Book an Appointment</h2>
+        <div class="appointment-container">
+            <form acion="thankyou.html">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="You can give description of what you want, and any particular nail technician whom you want to do your service :)"  required></textarea>
+    
+                <label for="appointment-date">Preferred Date:</label>
+                <input type="date" id="appointment-date" name="appointment-date" required>
+    
+                <label for="appointment-time">Preferred Time:</label>
+                <input type="time" id="appointment-time" name="appointment-time" required>
+                
+                <!-- <input type="submit" value="Book appointment" name="submit" id="submit"> -->
+                <button type="submit">Book Appointment</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
